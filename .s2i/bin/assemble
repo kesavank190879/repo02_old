@@ -40,7 +40,7 @@ else
 fi
 
 # Fix source directory permissions
-fix-permissions ./
+#fix-permissions ./
 #cp /tmp/src/*.html  ./
 #echo "This is again customization ---- cprakash " > ./info.html
 
