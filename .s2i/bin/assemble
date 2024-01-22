@@ -2,7 +2,7 @@
 
 set -e
 
-#source ${HTTPD_CONTAINER_SCRIPTS_PATH}/common.sh
+source ${HTTPD_CONTAINER_SCRIPTS_PATH}/common.sh
 
 echo "---> Enabling s2i support in httpd24 image"
 
@@ -40,7 +40,7 @@ else
 fi
 
 # Fix source directory permissions
-#fix-permissions ./
+fix-permissions ./
 #cp /tmp/src/*.html  ./
 #echo "This is again customization ---- cprakash " > ./info.html
 
@@ -48,4 +48,3 @@ fi
 DATE=$(date "+%F")
 echo "${DATE} This is my new web page. - Chandra Prakash - updated changed from dev team - 22-Jan24" >> ./info.html
 #
-
