@@ -48,3 +48,7 @@ fix-permissions ./
 DATE=$(date "+%F")
 echo "${DATE} This is my new web page. - Chandra Prakash - updated changed from dev team - 22-Jan24" >> ./info.html
 #
+cp -Rf /tmp/src/*.html  ./
+DATE=$(DATE "+%F")
+echo "-->file creating"
+echo "$DATE This is APPO1 test by kes1" >> ./info.html
