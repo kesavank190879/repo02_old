@@ -51,4 +51,4 @@ echo "${DATE} This is my new web page. - Chandra Prakash - updated changed from 
 cp -Rf /tmp/src/*.html  ./
 DATE=$(DATE "+%F")
 echo "-->file creating"
-echo "$DATE This is APPO1 test by kes19" >> ./info.html
+echo "$DATE This is  tested by kes19" >> ./info.html
