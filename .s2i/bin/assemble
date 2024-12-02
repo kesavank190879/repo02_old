@@ -12,7 +12,7 @@ config_s2i
 cp -Rf /tmp/src/*.html ./
 DATE=$(date "+%F")
 echo "creating info file"
-echo "$DATE This is new test" > ./info.html
+echo "$DATE This is new test" >> ./info.html
 ######## CUSTOMIZATION ENDS HERE ############
 
 if [ -d ./httpd-cfg ]; then
