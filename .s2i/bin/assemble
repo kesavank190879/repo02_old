@@ -10,9 +10,9 @@ config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
 cp -Rf /tmp/src/*.html ./
-DATE=$(DATE "+%F")
+DATE=$(date "+%F")
 echo "creting info.html"
-echo "$DATE This is new one)"
+echo "$DATE This is new one)"  >> ./info.html
 ######## CUSTOMIZATION ENDS HERE ############
 
 if [ -d ./httpd-cfg ]; then
